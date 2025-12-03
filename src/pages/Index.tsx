@@ -4,18 +4,14 @@ import LawSections from "@/components/LawSections";
 import LawFAQ from "@/components/LawFAQ";
 import Checklist from "@/components/Checklist";
 import Footer from "@/components/Footer";
-
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background">
       <Navigation />
-      <Hero />
+      <Hero className="border-accent bg-primary" />
       <LawSections />
       <LawFAQ />
       <Checklist />
       <Footer className="bg-slate-50" />
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
