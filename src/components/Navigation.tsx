@@ -15,12 +15,12 @@ const Navigation = () => {
 
   const navItems = [
     { id: "home", label: "Home" },
-    { id: "verzekeringen", label: "Welke verzekeringen?" },
-    { id: "wielen", label: "Op wielen" },
-    { id: "risicos", label: "Risico's & preventie" },
-    { id: "polisvoorwaarden", label: "Polisvoorwaarden" },
+    { id: "tiny-house-wet", label: "Tiny house wet" },
+    { id: "hoofdwoning", label: "Hoofdwoning" },
+    { id: "familiewoning", label: "Familiewoning" },
+    { id: "mantelzorg", label: "Mantelzorg" },
+    { id: "checklist", label: "Checklist" },
     { id: "faq", label: "FAQ" },
-    { id: "over", label: "Over" },
   ];
 
   return (
@@ -31,7 +31,7 @@ const Navigation = () => {
             onClick={() => scrollToSection("home")}
             className="text-xl font-bold text-primary hover:text-primary/80 transition-colors"
           >
-            tinyhouseverzekeren.nl
+            tinyhousewet.nl
           </button>
 
           {/* Desktop Navigation */}

@@ -12,7 +12,11 @@ export default {
         "2xl": "1400px",
       },
     },
-    extend: {
+extend: {
+      colors: {
+        "hero-blue": "hsl(var(--hero-blue))",
+        "hero-blue-dark": "hsl(var(--hero-blue-dark))",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
