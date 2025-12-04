@@ -8,7 +8,7 @@ const Index = () => {
   return <div className="min-h-screen bg-background">
       <Navigation />
       <Hero />
-      <LawSections />
+      <LawSections className="mb-0" />
       <LawFAQ />
       <Checklist />
       <Footer className="bg-slate-50" />

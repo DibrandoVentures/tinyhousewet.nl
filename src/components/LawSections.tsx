@@ -28,11 +28,7 @@ const LawSections = () => {
             </ul>
             
             <div className="md:float-right md:ml-6 mb-6 md:mb-0">
-              <img 
-                src={wetTinyhouseImage} 
-                alt="Rechtershamer op stapel groene mappen - symbolisch voor tiny house wetgeving" 
-                className="rounded-2xl shadow-lg w-56 md:w-72 lg:w-80 h-auto object-cover"
-              />
+              <img src={wetTinyhouseImage} alt="Rechtershamer op stapel groene mappen - symbolisch voor tiny house wetgeving" className="rounded-2xl shadow-lg w-56 md:w-72 lg:w-80 h-auto object-cover" />
             </div>
             
             <p className="text-muted-foreground mb-6">
@@ -143,11 +139,7 @@ const LawSections = () => {
             </ul>
 
             <div className="md:float-right md:ml-6 mb-6 md:mb-0">
-              <img 
-                src={kostenTinyhouseImage} 
-                alt="Modelwoning met rekenmachine en bouwhelm - symbolisch voor bouwplanning en kosten" 
-                className="rounded-2xl shadow-lg w-56 md:w-72 lg:w-80 h-auto object-cover"
-              />
+              <img src={kostenTinyhouseImage} alt="Modelwoning met rekenmachine en bouwhelm - symbolisch voor bouwplanning en kosten" className="rounded-2xl shadow-lg w-56 md:w-72 lg:w-80 h-auto object-cover" />
             </div>
 
             <h3 className="text-xl font-semibold text-foreground mb-4">Bouwkundige eisen</h3>
@@ -227,11 +219,7 @@ const LawSections = () => {
               <h2 className="text-3xl font-bold text-foreground">Mantelzorgwoning: tiny house als zorgoplossing</h2>
             </div>
             <div className="md:float-right md:ml-6 mb-6 md:mb-0">
-              <img 
-                src={mantelzorgImage} 
-                alt="Oudere en jongere handen die elkaar vasthouden - symbolisch voor mantelzorg" 
-                className="rounded-2xl shadow-lg w-56 md:w-72 lg:w-80 h-auto object-cover" 
-              />
+              <img src={mantelzorgImage} alt="Oudere en jongere handen die elkaar vasthouden - symbolisch voor mantelzorg" className="rounded-2xl shadow-lg w-56 md:w-72 lg:w-80 h-auto object-cover" />
             </div>
             
             <p className="text-muted-foreground mb-6">
@@ -284,12 +272,8 @@ const LawSections = () => {
       {/* Section 6: Concreet betekent */}
       <section className="py-16 bg-muted/30">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto flex justify-center mb-8">
-            <img 
-              src={tinyCommunityImage} 
-              alt="Overzicht van een tiny house community met meerdere tiny houses op een veld" 
-              className="rounded-2xl shadow-lg w-80 md:w-[28rem] lg:w-[32rem] h-auto object-cover" 
-            />
+          <div className="max-w-4xl mx-auto justify-center mb-0 flex flex-row">
+            <img src={tinyCommunityImage} alt="Overzicht van een tiny house community met meerdere tiny houses op een veld" className="rounded-2xl shadow-lg w-80 md:w-[28rem] lg:w-[32rem] h-auto object-cover" />
           </div>
         </div>
       </section>
