@@ -13,8 +13,8 @@ const Hero = () => {
   return <section id="home" className="relative bg-hero-blue overflow-hidden pt-16">
       <div className="absolute inset-0 bg-gradient-to-br from-hero-blue to-hero-blue-dark opacity-90"></div>
       
-      <div className="container relative z-10 md:py-24 border-primary rounded-3xl px-0 py-0 mx-0 bg-primary border-none border-0">
-        <div className="grid md:grid-cols-2 gap-12 items-center bg-primary">
+      <div className="container relative z-10 md:py-24 border-primary rounded-3xl px-0 mx-0 bg-primary border-none border-0 py-[50px]">
+        <div className="grid md:grid-cols-2 gap-12 items-center bg-primary my-[10px] mb-0 mt-0">
           <div className="text-white">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight mx-[10px]">Tiny house en de wet: hoe zit het nou echt?</h1>
             <p className="text-lg md:text-xl mb-8 text-white/90 leading-relaxed mx-[10px]">
@@ -34,7 +34,7 @@ const Hero = () => {
               </Button>
             </div>
 
-            <div className="space-y-2 bg-white/10 backdrop-blur-sm rounded-2xl p-6 shadow-2xl mx-[10px]">
+            <div className="space-y-2 bg-white/10 backdrop-blur-sm rounded-2xl p-6 shadow-2xl mx-[10px] pb-0 my-[10px] py-[10px]">
               <h3 className="text-lg font-semibold text-white mb-3">We behandelen:</h3>
               <div className="flex flex-col gap-2">
                 {["of er een officiële \"tiny house wet\" bestaat", "welke wetten en regels tiny houses raken", "het verschil tussen hoofdwoning, familiewoning op eigen erf en mantelzorgwoning", "wat dit in de praktijk betekent als jij een plan hebt", "een checklist om slimmer met de gemeente in gesprek te gaan"].map((item, i) => <div key={i} className="flex items-start gap-2">
