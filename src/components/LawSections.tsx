@@ -31,7 +31,7 @@ const LawSections = () => {
               <img 
                 src={wetTinyhouseImage} 
                 alt="Rechtershamer op stapel groene mappen - symbolisch voor tiny house wetgeving" 
-                className="rounded-2xl shadow-lg w-48 md:w-56 h-auto object-cover" 
+                className="rounded-2xl shadow-lg w-56 md:w-72 lg:w-80 h-auto object-cover"
               />
             </div>
             
@@ -146,7 +146,7 @@ const LawSections = () => {
               <img 
                 src={kostenTinyhouseImage} 
                 alt="Modelwoning met rekenmachine en bouwhelm - symbolisch voor bouwplanning en kosten" 
-                className="rounded-2xl shadow-lg w-48 md:w-56 h-auto object-cover" 
+                className="rounded-2xl shadow-lg w-56 md:w-72 lg:w-80 h-auto object-cover"
               />
             </div>
 
@@ -230,7 +230,7 @@ const LawSections = () => {
               <img 
                 src={mantelzorgImage} 
                 alt="Oudere en jongere handen die elkaar vasthouden - symbolisch voor mantelzorg" 
-                className="rounded-2xl shadow-lg w-48 md:w-56 h-auto object-cover" 
+                className="rounded-2xl shadow-lg w-56 md:w-72 lg:w-80 h-auto object-cover" 
               />
             </div>
             
@@ -288,7 +288,7 @@ const LawSections = () => {
             <img 
               src={tinyCommunityImage} 
               alt="Overzicht van een tiny house community met meerdere tiny houses op een veld" 
-              className="rounded-2xl shadow-lg w-72 md:w-96 h-auto object-cover" 
+              className="rounded-2xl shadow-lg w-80 md:w-[28rem] lg:w-[32rem] h-auto object-cover" 
             />
           </div>
         </div>
