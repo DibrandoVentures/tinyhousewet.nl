@@ -4,8 +4,12 @@ import wetTinyhouseImage from "@/assets/wet-tinyhouse.png";
 import kostenTinyhouseImage from "@/assets/kosten-tinyhouse.png";
 import mantelzorgImage from "@/assets/mantelzorg.png";
 import tinyCommunityImage from "@/assets/tiny-community.jpg";
-const LawSections = () => {
-  return <>
+interface LawSectionsProps {
+  className?: string;
+}
+
+const LawSections = ({ className }: LawSectionsProps) => {
+  return <div className={className}>
       {/* Section 1: Is er een aparte tiny house wet? */}
       <section id="tiny-house-wet" className="py-16 bg-background">
         <div className="container mx-auto px-4">
@@ -122,6 +126,10 @@ const LawSections = () => {
               Zonder passende bestemming is een tiny house als hoofdwoning meestal niet toegestaan, hoe klein en duurzaam het ook is.
             </p>
 
+            <div className="md:float-right md:ml-6 mb-6 md:mb-0">
+              <img src={kostenTinyhouseImage} alt="Modelwoning met rekenmachine en bouwhelm - symbolisch voor bouwplanning en kosten" className="rounded-2xl shadow-lg w-56 md:w-72 lg:w-80 h-auto object-cover" />
+            </div>
+
             <h3 className="text-xl font-semibold text-foreground mb-4">Vergunningsplicht</h3>
             <p className="text-muted-foreground mb-4">
               Een tiny house als hoofdwoning is in de praktijk bijna altijd <strong>vergunningplichtig</strong>:
@@ -137,10 +145,6 @@ const LawSections = () => {
                 </ul>
               </li>
             </ul>
-
-            <div className="md:float-right md:ml-6 mb-6 md:mb-0">
-              <img src={kostenTinyhouseImage} alt="Modelwoning met rekenmachine en bouwhelm - symbolisch voor bouwplanning en kosten" className="rounded-2xl shadow-lg w-56 md:w-72 lg:w-80 h-auto object-cover" />
-            </div>
 
             <h3 className="text-xl font-semibold text-foreground mb-4">Bouwkundige eisen</h3>
             <p className="text-muted-foreground mb-4">
@@ -340,6 +344,6 @@ const LawSections = () => {
           </div>
         </div>
       </section>
-    </>;
+    </div>;
 };
 export default LawSections;
