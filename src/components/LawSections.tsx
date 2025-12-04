@@ -8,6 +8,8 @@ import tinyhouseBlueprintImage from "@/assets/tinyhouse-blueprint.png";
 import tinyhouseErfImage from "@/assets/tinyhouse-erf.png";
 import familieDinnerImage from "@/assets/familie-dinner.png";
 import mantelzorgCareImage from "@/assets/mantelzorg-care.png";
+import tinyWheelsCoupleImage from "@/assets/tiny-wheels-couple.jpg";
+import tinyPergolaGardenImage from "@/assets/tiny-pergola-garden.jpg";
 interface LawSectionsProps {
   className?: string;
 }
@@ -24,7 +26,7 @@ const LawSections = ({
               <h2 className="text-3xl font-bold text-foreground">Is er een aparte "tiny house wet"?</h2>
             </div>
             <div className="md:float-right md:ml-6 mb-6 md:mb-0 flex justify-center md:justify-end">
-              <img src={wetTinyhouseImage} alt="Rechtershamer op stapel groene mappen - symbolisch voor tiny house wetgeving" className="rounded-2xl shadow-lg w-40 md:w-52 lg:w-64 h-auto object-cover" />
+              <img src={wetTinyhouseImage} alt="Rechtershamer op stapel groene mappen - symbolisch voor tiny house wetgeving" className="rounded-2xl shadow-lg w-40 md:w-52 lg:w-64 h-auto object-cover transition-transform duration-300 hover:scale-105 hover:shadow-xl" />
             </div>
             
             <p className="text-lg text-muted-foreground mb-6">
@@ -116,7 +118,7 @@ const LawSections = ({
               <h2 className="text-3xl font-bold text-foreground">Tiny house als hoofdwoning op eigen kavel</h2>
             </div>
             <div className="md:float-left md:mr-6 mb-6 md:mb-0 flex justify-center md:justify-start">
-              <img src={tinyhouseBlueprintImage} alt="Blauwdruk van een tiny house - bouwtekening" className="rounded-2xl shadow-lg w-48 md:w-56 lg:w-72 h-auto object-cover" />
+              <img src={tinyhouseBlueprintImage} alt="Blauwdruk van een tiny house - bouwtekening" className="rounded-2xl shadow-lg w-48 md:w-56 lg:w-72 h-auto object-cover transition-transform duration-300 hover:scale-105 hover:shadow-xl" />
             </div>
             <p className="text-muted-foreground mb-8">
               Wil je je tiny house gebruiken als volwaardige woning op een eigen stuk grond, dan ziet de wet het vrijwel altijd als een <strong>hoofdwoning</strong>.
@@ -171,7 +173,7 @@ const LawSections = ({
       <section className="py-8 bg-muted/30">
         <div className="container mx-auto px-4">
           <div className="max-w-5xl mx-auto">
-            <img src={tinyhouseErfImage} alt="Rode tiny house op een groen erf met bomen" className="rounded-2xl shadow-lg w-full h-64 md:h-80 lg:h-96 object-cover" />
+            <img src={tinyhouseErfImage} alt="Rode tiny house op een groen erf met bomen" className="rounded-2xl shadow-lg w-full h-64 md:h-80 lg:h-96 object-cover transition-transform duration-300 hover:scale-[1.02] hover:shadow-xl" />
           </div>
         </div>
       </section>
@@ -185,7 +187,7 @@ const LawSections = ({
               <h2 className="text-3xl font-bold text-foreground">Extra woning op eigen erf: de familiewoning</h2>
             </div>
             <div className="md:float-right md:ml-6 mb-6 md:mb-0 flex justify-center md:justify-end">
-              <img src={familieDinnerImage} alt="Familie aan het dineren samen - meerdere generaties" className="rounded-2xl shadow-lg w-48 md:w-56 lg:w-72 h-auto object-cover" />
+              <img src={familieDinnerImage} alt="Familie aan het dineren samen - meerdere generaties" className="rounded-2xl shadow-lg w-48 md:w-56 lg:w-72 h-auto object-cover transition-transform duration-300 hover:scale-105 hover:shadow-xl" />
             </div>
             <p className="text-muted-foreground mb-6">
               Steeds meer mensen willen een extra, compacte woning op hun erf voor familie:
@@ -239,7 +241,7 @@ const LawSections = ({
               <h2 className="text-3xl font-bold text-foreground">Mantelzorgwoning: tiny house als zorgoplossing</h2>
             </div>
             <div className="md:float-right md:ml-6 mb-6 md:mb-0 flex justify-center md:justify-end">
-              <img src={mantelzorgCareImage} alt="Mantelzorger helpt oudere vrouw in rolstoel" className="rounded-2xl shadow-lg w-48 md:w-56 lg:w-72 h-auto object-cover" />
+              <img src={mantelzorgCareImage} alt="Mantelzorger helpt oudere vrouw in rolstoel" className="rounded-2xl shadow-lg w-48 md:w-56 lg:w-72 h-auto object-cover transition-transform duration-300 hover:scale-105 hover:shadow-xl" />
             </div>
             
             <p className="text-muted-foreground mb-6">
@@ -289,11 +291,13 @@ const LawSections = ({
         </div>
       </section>
 
-      {/* Section 6: Concreet betekent */}
+      {/* Section 6: Image gallery */}
       <section className="py-16 bg-muted/30">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto flex justify-center">
-            <img src={tinyCommunityImage} alt="Overzicht van een tiny house community met meerdere tiny houses op een veld" className="rounded-2xl shadow-lg w-64 md:w-80 lg:w-96 h-auto object-cover" />
+          <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
+            <img src={tinyCommunityImage} alt="Overzicht van een tiny house community met meerdere tiny houses op een veld" className="rounded-2xl shadow-lg w-full h-64 object-cover transition-transform duration-300 hover:scale-105 hover:shadow-xl" />
+            <img src={tinyWheelsCoupleImage} alt="Koppel bij een tiny house op wielen" className="rounded-2xl shadow-lg w-full h-64 object-cover transition-transform duration-300 hover:scale-105 hover:shadow-xl" />
+            <img src={tinyPergolaGardenImage} alt="Moderne tiny house met pergola en tuin" className="rounded-2xl shadow-lg w-full h-64 object-cover transition-transform duration-300 hover:scale-105 hover:shadow-xl" />
           </div>
         </div>
       </section>
