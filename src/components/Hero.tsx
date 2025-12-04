@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, CheckCircle } from "lucide-react";
-import tinyModernDeckImage from "@/assets/tiny-modern-deck.jpg";
+import thinkingImage from "@/assets/thinking.png";
 const Hero = () => {
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
@@ -46,7 +46,7 @@ const Hero = () => {
           </div>
 
           <div className="hidden md:block">
-            <img src={tinyModernDeckImage} alt="Modern tiny house met houten terras in een groene omgeving" className="rounded-3xl shadow-2xl w-full h-auto object-scale-down border-primary border-0" />
+            <img src={thinkingImage} alt="Vrouw die nadenkt met vraagtekens - symbolisch voor veelgestelde vragen" className="rounded-3xl shadow-2xl w-full h-auto object-scale-down border-primary border-0" />
           </div>
         </div>
       </div>
