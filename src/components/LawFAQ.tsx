@@ -1,5 +1,6 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { HelpCircle } from "lucide-react";
+import thinkingImage from "@/assets/thinking.png";
 const LawFAQ = () => {
   const faqItems = [{
     question: "Is een tiny house automatisch vergunningsvrij omdat het klein is?",
@@ -20,9 +21,23 @@ const LawFAQ = () => {
   return <section id="faq" className="py-16 bg-muted/30">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
-          <div className="flex items-center gap-3 mb-8">
-            <HelpCircle className="h-8 w-8 text-primary" />
-            <h2 className="text-3xl font-bold text-foreground">Korte Q&A: tiny house en wet in gewone taal</h2>
+          <div className="grid md:grid-cols-2 gap-8 mb-8 items-center">
+            <div>
+              <div className="flex items-center gap-3 mb-4">
+                <HelpCircle className="h-8 w-8 text-primary" />
+                <h2 className="text-3xl font-bold text-foreground">Korte Q&A: tiny house en wet in gewone taal</h2>
+              </div>
+              <p className="text-muted-foreground">
+                De meestgestelde vragen over tiny houses en wetgeving, helder beantwoord.
+              </p>
+            </div>
+            <div className="hidden md:block">
+              <img 
+                src={thinkingImage} 
+                alt="Vrouw die nadenkt met vraagtekens - symbolisch voor veelgestelde vragen" 
+                className="rounded-2xl shadow-lg w-full h-auto object-cover"
+              />
+            </div>
           </div>
           
           <Accordion type="single" collapsible className="w-full space-y-4">
