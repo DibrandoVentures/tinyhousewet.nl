@@ -13,7 +13,7 @@ const Hero = () => {
   return <section id="home" className="relative bg-hero-blue overflow-hidden pt-16">
       <div className="absolute inset-0 bg-gradient-to-br from-hero-blue to-hero-blue-dark opacity-90"></div>
       
-      <div className="container relative z-10 md:py-24 border-primary rounded-3xl px-0 mx-0 bg-primary border-none border-0 py-[15px]">
+      <div className="container relative z-10 md:py-24 border-primary rounded-3xl mx-0 bg-primary border-none border-0 py-[15px] px-[15px]">
         <div className="grid md:grid-cols-2 gap-12 items-center bg-primary my-[10px] mb-0 mt-0">
           <div className="text-white">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight mx-[10px]">Tiny house en de wet: hoe zit het nou echt?</h1>
