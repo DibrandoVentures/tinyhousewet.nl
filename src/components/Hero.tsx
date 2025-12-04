@@ -34,7 +34,7 @@ const Hero = () => {
               </Button>
             </div>
 
-            <div className="space-y-2 backdrop-blur-sm rounded-2xl p-6 mx-[10px] pb-0 bg-sidebar-primary bg-[sidebar-primary-foreground] px-[15px] shadow-2xs my-[10px] py-[15px]">
+            <div className="space-y-2 backdrop-blur-sm rounded-2xl p-6 mx-[10px] pb-0 bg-[sidebar-primary-foreground] px-[15px] shadow-2xs my-[10px] bg-[#916d31] py-[25px]">
               <h3 className="text-lg font-semibold text-white mb-3">We behandelen:</h3>
               <div className="flex flex-col gap-2">
                 {["of er een officiële \"tiny house wet\" bestaat", "welke wetten en regels tiny houses raken", "het verschil tussen hoofdwoning, familiewoning op eigen erf en mantelzorgwoning", "wat dit in de praktijk betekent als jij een plan hebt", "een checklist om slimmer met de gemeente in gesprek te gaan"].map((item, i) => <div key={i} className="flex items-start gap-2">
