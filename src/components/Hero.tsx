@@ -10,11 +10,11 @@ const Hero = () => {
       });
     }
   };
-  return <section id="home" className="relative bg-hero-blue overflow-hidden pt-16">
+  return <section id="home" className="relative bg-primary overflow-hidden pt-16 w-full">
       <div className="absolute inset-0 bg-gradient-to-br from-hero-blue to-hero-blue-dark opacity-90"></div>
       
-      <div className="container relative z-10 md:py-24 border-primary rounded-3xl bg-primary border-none py-[15px] px-[15px] mx-0 my-0 ml-0 mr-0 mb-0 mt-0 pl-0 pr-0 pt-0 pb-0 border">
-        <div className="grid md:grid-cols-2 gap-12 items-center bg-primary my-[10px] mb-0 mt-0">
+      <div className="relative z-10 w-full px-6 md:px-12 lg:px-20 py-12 md:py-24">
+        <div className="grid md:grid-cols-2 gap-12 items-center max-w-7xl mx-auto">
           <div className="text-white">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight mx-[10px]">Tiny house en de wet: hoe zit het nou echt?</h1>
             <p className="text-lg md:text-xl mb-8 text-white/90 leading-relaxed mx-[10px]">
