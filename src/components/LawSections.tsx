@@ -1,16 +1,14 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Scale, Home, Users, Heart, FileCheck, HelpCircle } from "lucide-react";
-
 const LawSections = () => {
-  return (
-    <>
+  return <>
       {/* Section 1: Is er een aparte tiny house wet? */}
       <section id="tiny-house-wet" className="py-16 bg-background">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="flex items-center gap-3 mb-6">
               <Scale className="h-8 w-8 text-primary" />
-              <h2 className="text-3xl font-bold text-foreground">1. Is er een aparte "tiny house wet"?</h2>
+              <h2 className="text-3xl font-bold text-foreground">Is er een aparte "tiny house wet"?</h2>
             </div>
             <p className="text-lg text-muted-foreground mb-6">
               Het korte antwoord: <strong>nee</strong>.
@@ -44,7 +42,7 @@ const LawSections = () => {
       <section className="py-16 bg-muted/30">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-foreground mb-6">2. De drie belangrijkste "brillen" van de wet</h2>
+            <h2 className="text-3xl font-bold text-foreground mb-6">De drie belangrijkste "brillen" van de wet</h2>
             <p className="text-muted-foreground mb-8">
               Je kunt het zo zien: de wet kijkt niet naar jouw interieurfoto's, maar naar de <strong>functie</strong> van het bouwwerk. 
               In de praktijk kom je bij tiny houses vaak in één van deze drie groepen uit:
@@ -97,13 +95,13 @@ const LawSections = () => {
           <div className="max-w-4xl mx-auto">
             <div className="flex items-center gap-3 mb-6">
               <Home className="h-8 w-8 text-primary" />
-              <h2 className="text-3xl font-bold text-foreground">3. Tiny house als hoofdwoning op eigen kavel</h2>
+              <h2 className="text-3xl font-bold text-foreground">Tiny house als hoofdwoning op eigen kavel</h2>
             </div>
             <p className="text-muted-foreground mb-8">
               Wil je je tiny house gebruiken als volwaardige woning op een eigen stuk grond, dan ziet de wet het vrijwel altijd als een <strong>hoofdwoning</strong>.
             </p>
 
-            <h3 className="text-xl font-semibold text-foreground mb-4">3.1 Bestemming van de grond</h3>
+            <h3 className="text-xl font-semibold text-foreground mb-4">Bestemming van de grond</h3>
             <p className="text-muted-foreground mb-4">
               Alles begint met de bestemming van de grond in het omgevingsplan van de gemeente:
             </p>
@@ -115,7 +113,7 @@ const LawSections = () => {
               Zonder passende bestemming is een tiny house als hoofdwoning meestal niet toegestaan, hoe klein en duurzaam het ook is.
             </p>
 
-            <h3 className="text-xl font-semibold text-foreground mb-4">3.2 Vergunningsplicht</h3>
+            <h3 className="text-xl font-semibold text-foreground mb-4">Vergunningsplicht</h3>
             <p className="text-muted-foreground mb-4">
               Een tiny house als hoofdwoning is in de praktijk bijna altijd <strong>vergunningplichtig</strong>:
             </p>
@@ -131,7 +129,7 @@ const LawSections = () => {
               </li>
             </ul>
 
-            <h3 className="text-xl font-semibold text-foreground mb-4">3.3 Bouwkundige eisen</h3>
+            <h3 className="text-xl font-semibold text-foreground mb-4">Bouwkundige eisen</h3>
             <p className="text-muted-foreground mb-4">
               Ook een kleine woning moet voldoen aan basisregels voor:
             </p>
@@ -154,7 +152,7 @@ const LawSections = () => {
           <div className="max-w-4xl mx-auto">
             <div className="flex items-center gap-3 mb-6">
               <Users className="h-8 w-8 text-primary" />
-              <h2 className="text-3xl font-bold text-foreground">4. Extra woning op eigen erf: de familiewoning</h2>
+              <h2 className="text-3xl font-bold text-foreground">Extra woning op eigen erf: de familiewoning</h2>
             </div>
             <p className="text-muted-foreground mb-6">
               Steeds meer mensen willen een extra, compacte woning op hun erf voor familie:
@@ -165,7 +163,7 @@ const LawSections = () => {
               <li>een generatiewoning waarbij jong en oud samen op één erf leven.</li>
             </ul>
 
-            <h3 className="text-xl font-semibold text-foreground mb-4">4.1 Bijgebouw met woonfunctie</h3>
+            <h3 className="text-xl font-semibold text-foreground mb-4">Bijgebouw met woonfunctie</h3>
             <p className="text-muted-foreground mb-4">
               Juridisch kom je dan vaak in de categorie <strong>bijbehorend bouwwerk met woonfunctie</strong> terecht:
             </p>
@@ -183,7 +181,7 @@ const LawSections = () => {
               De regels per gemeente kunnen verschillen, maar het idee is meestal: wel meer woonruimte voor familie, maar geen "stiekeme extra rij huizen" op één erf.
             </p>
 
-            <h3 className="text-xl font-semibold text-foreground mb-4">4.2 Vergunningsvrij of met vergunning?</h3>
+            <h3 className="text-xl font-semibold text-foreground mb-4">Vergunningsvrij of met vergunning?</h3>
             <p className="text-muted-foreground mb-4">
               Sommige vormen van bijgebouwen met woonfunctie kunnen (deels) onder vergunningsvrij bouwen vallen, mits:
             </p>
@@ -205,7 +203,7 @@ const LawSections = () => {
           <div className="max-w-4xl mx-auto">
             <div className="flex items-center gap-3 mb-6">
               <Heart className="h-8 w-8 text-primary" />
-              <h2 className="text-3xl font-bold text-foreground">5. Mantelzorgwoning: tiny house als zorgoplossing</h2>
+              <h2 className="text-3xl font-bold text-foreground">Mantelzorgwoning: tiny house als zorgoplossing</h2>
             </div>
             <p className="text-muted-foreground mb-6">
               Een mantelzorgwoning is een woning die er specifiek staat vanwege een zorgrelatie. Denk aan:
@@ -216,7 +214,7 @@ const LawSections = () => {
               <li>een mantelzorger die in een extra unit naast de zorgvrager woont.</li>
             </ul>
 
-            <h3 className="text-xl font-semibold text-foreground mb-4">5.1 Wanneer is er volgens de wet sprake van mantelzorg?</h3>
+            <h3 className="text-xl font-semibold text-foreground mb-4">Wanneer is er volgens de wet sprake van mantelzorg?</h3>
             <p className="text-muted-foreground mb-4">
               In de regel is er sprake van mantelzorg als:
             </p>
@@ -229,7 +227,7 @@ const LawSections = () => {
               Veel gemeenten vragen een vorm van verklaring of onderbouwing voordat ze een mantelzorgwoning toestaan.
             </p>
 
-            <h3 className="text-xl font-semibold text-foreground mb-4">5.2 Ruimte in de regels</h3>
+            <h3 className="text-xl font-semibold text-foreground mb-4">Ruimte in de regels</h3>
             <p className="text-muted-foreground mb-4">
               De wet biedt relatief veel ruimte voor mantelzorgwoningen, omdat het doel duidelijk is: iemand veilig en waardig laten wonen, dicht bij de mantelzorger. Daarom:
             </p>
@@ -238,7 +236,7 @@ const LawSections = () => {
               <li>gelden er wel regels voor omvang, plaatsing op het erf en gebruik.</li>
             </ul>
 
-            <h3 className="text-xl font-semibold text-foreground mb-4">5.3 Wat als de mantelzorg stopt?</h3>
+            <h3 className="text-xl font-semibold text-foreground mb-4">Wat als de mantelzorg stopt?</h3>
             <p className="text-muted-foreground mb-4">
               Dit punt wordt vaak onderschat. Het is belangrijk om vooraf duidelijk te hebben:
             </p>
@@ -258,14 +256,14 @@ const LawSections = () => {
       <section className="py-16 bg-muted/30">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-foreground mb-6">6. Wat betekent dit allemaal concreet voor jouw plan?</h2>
+            <h2 className="text-3xl font-bold text-foreground mb-6">Wat betekent dit allemaal concreet voor jouw plan?</h2>
             <p className="text-muted-foreground mb-6">
               De wet kijkt minder naar de hype rond tiny houses en meer naar een paar nuchtere vragen:
             </p>
             <div className="grid md:grid-cols-2 gap-6">
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-lg">1. Wat is de functie?</CardTitle>
+                  <CardTitle className="text-lg">Wat is de functie?</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <ul className="list-disc list-inside space-y-1 text-muted-foreground text-sm">
@@ -277,7 +275,7 @@ const LawSections = () => {
               </Card>
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-lg">2. Waar komt het te staan?</CardTitle>
+                  <CardTitle className="text-lg">Waar komt het te staan?</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <ul className="list-disc list-inside space-y-1 text-muted-foreground text-sm">
@@ -289,7 +287,7 @@ const LawSections = () => {
               </Card>
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-lg">3. Wie gaat er wonen?</CardTitle>
+                  <CardTitle className="text-lg">Wie gaat er wonen?</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <ul className="list-disc list-inside space-y-1 text-muted-foreground text-sm">
@@ -301,7 +299,7 @@ const LawSections = () => {
               </Card>
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-lg">4. Is het tijdelijk of vast?</CardTitle>
+                  <CardTitle className="text-lg">Is het tijdelijk of vast?</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground text-sm">
@@ -317,8 +315,6 @@ const LawSections = () => {
           </div>
         </div>
       </section>
-    </>
-  );
+    </>;
 };
-
 export default LawSections;
