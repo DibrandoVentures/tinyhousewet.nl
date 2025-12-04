@@ -19,8 +19,8 @@ const LawSections = ({
               <Scale className="h-8 w-8 text-primary" />
               <h2 className="text-3xl font-bold text-foreground">Is er een aparte "tiny house wet"?</h2>
             </div>
-            <div className="md:float-right md:ml-6 mb-6 md:mb-0">
-              <img src={wetTinyhouseImage} alt="Rechtershamer op stapel groene mappen - symbolisch voor tiny house wetgeving" className="rounded-2xl shadow-lg w-56 md:w-72 lg:w-80 h-auto object-cover" />
+            <div className="md:float-right md:ml-6 mb-6 md:mb-0 flex justify-center md:justify-end">
+              <img src={wetTinyhouseImage} alt="Rechtershamer op stapel groene mappen - symbolisch voor tiny house wetgeving" className="rounded-2xl shadow-lg w-40 md:w-52 lg:w-64 h-auto object-cover" />
             </div>
             
             <p className="text-lg text-muted-foreground mb-6">
@@ -223,8 +223,8 @@ const LawSections = ({
               <Heart className="h-8 w-8 text-primary" />
               <h2 className="text-3xl font-bold text-foreground">Mantelzorgwoning: tiny house als zorgoplossing</h2>
             </div>
-            <div className="md:float-right md:ml-6 mb-6 md:mb-0">
-              <img src={mantelzorgImage} alt="Oudere en jongere handen die elkaar vasthouden - symbolisch voor mantelzorg" className="rounded-2xl shadow-lg w-56 md:w-72 lg:w-80 h-auto object-cover" />
+            <div className="md:float-right md:ml-6 mb-6 md:mb-0 flex justify-center md:justify-end">
+              <img src={mantelzorgImage} alt="Oudere en jongere handen die elkaar vasthouden - symbolisch voor mantelzorg" className="rounded-2xl shadow-lg w-40 md:w-52 lg:w-64 h-auto object-cover" />
             </div>
             
             <p className="text-muted-foreground mb-6">
@@ -277,8 +277,8 @@ const LawSections = ({
       {/* Section 6: Concreet betekent */}
       <section className="py-16 bg-muted/30">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto justify-center mb-0 flex flex-row">
-            <img src={tinyCommunityImage} alt="Overzicht van een tiny house community met meerdere tiny houses op een veld" className="rounded-2xl shadow-lg w-80 md:w-[28rem] lg:w-[32rem] h-auto object-cover" />
+          <div className="max-w-4xl mx-auto flex justify-center">
+            <img src={tinyCommunityImage} alt="Overzicht van een tiny house community met meerdere tiny houses op een veld" className="rounded-2xl shadow-lg w-64 md:w-80 lg:w-96 h-auto object-cover" />
           </div>
         </div>
       </section>
