@@ -45,8 +45,8 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="hidden md:block">
-            <img src={thinkingImage} alt="Vrouw die nadenkt met vraagtekens - symbolisch voor veelgestelde vragen" className="rounded-3xl shadow-2xl w-full h-auto object-scale-down border-primary border-0" />
+          <div className="hidden md:flex justify-center items-center">
+            <img src={thinkingImage} alt="Vrouw die nadenkt met vraagtekens - symbolisch voor veelgestelde vragen" className="rounded-3xl shadow-2xl w-64 lg:w-80 xl:w-96 h-auto object-contain" />
           </div>
         </div>
       </div>
