@@ -7,8 +7,9 @@ import tinyCommunityImage from "@/assets/tiny-community.jpg";
 interface LawSectionsProps {
   className?: string;
 }
-
-const LawSections = ({ className }: LawSectionsProps) => {
+const LawSections = ({
+  className
+}: LawSectionsProps) => {
   return <div className={className}>
       {/* Section 1: Is er een aparte tiny house wet? */}
       <section id="tiny-house-wet" className="py-16 bg-background">
@@ -127,7 +128,7 @@ const LawSections = ({ className }: LawSectionsProps) => {
             </p>
 
             <div className="md:float-right md:ml-6 mb-6 md:mb-0">
-              <img src={kostenTinyhouseImage} alt="Modelwoning met rekenmachine en bouwhelm - symbolisch voor bouwplanning en kosten" className="rounded-2xl shadow-lg w-56 md:w-72 lg:w-80 h-auto object-cover" />
+              
             </div>
 
             <h3 className="text-xl font-semibold text-foreground mb-4">Vergunningsplicht</h3>
