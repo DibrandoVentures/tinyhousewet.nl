@@ -43,10 +43,14 @@ const LawSections = () => {
       </section>
 
       {/* Image Section - Wet/Law */}
-      <section className="py-12 bg-muted/30">
+      <section className="py-12 bg-muted/30 overflow-hidden">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <img src={wetTinyhouseImage} alt="Rechtershamer op stapel groene mappen - symbolisch voor tiny house wetgeving" className="rounded-2xl shadow-lg w-full h-auto object-cover" />
+          <div className="flex justify-end">
+            <img 
+              src={wetTinyhouseImage} 
+              alt="Rechtershamer op stapel groene mappen - symbolisch voor tiny house wetgeving" 
+              className="rounded-2xl shadow-lg w-full md:w-2/3 lg:w-1/2 h-auto object-cover transform md:translate-x-12 lg:translate-x-24" 
+            />
           </div>
         </div>
       </section>
@@ -160,10 +164,14 @@ const LawSections = () => {
       </section>
 
       {/* Image Section - Kosten/Planning */}
-      <section className="py-12 bg-muted/30">
+      <section className="py-12 bg-background overflow-hidden">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <img src={kostenTinyhouseImage} alt="Modelwoning met rekenmachine en bouwhelm - symbolisch voor bouwplanning en kosten" className="rounded-2xl shadow-lg w-full h-auto object-cover" />
+          <div className="flex justify-start">
+            <img 
+              src={kostenTinyhouseImage} 
+              alt="Modelwoning met rekenmachine en bouwhelm - symbolisch voor bouwplanning en kosten" 
+              className="rounded-2xl shadow-lg w-full md:w-2/3 lg:w-1/2 h-auto object-cover transform md:-translate-x-12 lg:-translate-x-24" 
+            />
           </div>
         </div>
       </section>
@@ -249,8 +257,12 @@ const LawSections = () => {
               Veel gemeenten vragen een vorm van verklaring of onderbouwing voordat ze een mantelzorgwoning toestaan.
             </p>
 
-            <div className="my-8">
-              <img src={mantelzorgImage} alt="Oudere en jongere handen die elkaar vasthouden - symbolisch voor mantelzorg" className="rounded-2xl shadow-lg w-full h-auto object-cover" />
+            <div className="my-8 flex justify-end">
+              <img 
+                src={mantelzorgImage} 
+                alt="Oudere en jongere handen die elkaar vasthouden - symbolisch voor mantelzorg" 
+                className="rounded-2xl shadow-lg w-full md:w-3/4 h-auto object-cover transform md:translate-x-8" 
+              />
             </div>
 
             <h3 className="text-xl font-semibold text-foreground mb-4">Ruimte in de regels</h3>
@@ -279,10 +291,14 @@ const LawSections = () => {
       </section>
 
       {/* Image Section - Tiny Community */}
-      <section className="py-12 bg-muted/30">
+      <section className="py-12 bg-muted/30 overflow-hidden">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <img src={tinyCommunityImage} alt="Overzicht van een tiny house community met meerdere tiny houses op een veld" className="rounded-2xl shadow-lg w-full h-auto object-cover" />
+          <div className="flex justify-start">
+            <img 
+              src={tinyCommunityImage} 
+              alt="Overzicht van een tiny house community met meerdere tiny houses op een veld" 
+              className="rounded-2xl shadow-lg w-full md:w-2/3 lg:w-3/5 h-auto object-cover transform md:-translate-x-12 lg:-translate-x-20" 
+            />
           </div>
         </div>
       </section>
