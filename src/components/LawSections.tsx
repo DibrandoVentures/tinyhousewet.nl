@@ -4,6 +4,10 @@ import wetTinyhouseImage from "@/assets/wet-tinyhouse.png";
 import kostenTinyhouseImage from "@/assets/kosten-tinyhouse.png";
 import mantelzorgImage from "@/assets/mantelzorg.png";
 import tinyCommunityImage from "@/assets/tiny-community.jpg";
+import tinyhouseBlueprintImage from "@/assets/tinyhouse-blueprint.png";
+import tinyhouseErfImage from "@/assets/tinyhouse-erf.png";
+import familieDinnerImage from "@/assets/familie-dinner.png";
+import mantelzorgCareImage from "@/assets/mantelzorg-care.png";
 interface LawSectionsProps {
   className?: string;
 }
@@ -111,6 +115,9 @@ const LawSections = ({
               <Home className="h-8 w-8 text-primary" />
               <h2 className="text-3xl font-bold text-foreground">Tiny house als hoofdwoning op eigen kavel</h2>
             </div>
+            <div className="md:float-left md:mr-6 mb-6 md:mb-0 flex justify-center md:justify-start">
+              <img src={tinyhouseBlueprintImage} alt="Blauwdruk van een tiny house - bouwtekening" className="rounded-2xl shadow-lg w-48 md:w-56 lg:w-72 h-auto object-cover" />
+            </div>
             <p className="text-muted-foreground mb-8">
               Wil je je tiny house gebruiken als volwaardige woning op een eigen stuk grond, dan ziet de wet het vrijwel altijd als een <strong>hoofdwoning</strong>.
             </p>
@@ -123,13 +130,9 @@ const LawSections = ({
               <li>Staat er "Wonen", dan is er in principe ruimte voor een woning – maar nog niet per se voor meerdere woningen.</li>
               <li>Staat er "Agrarisch", "Recreatie" of "Bedrijventerrein", dan moet er een uitzondering worden gemaakt of de bestemming moet worden gewijzigd.</li>
             </ul>
-            <p className="text-muted-foreground mb-8 font-medium">
+            <p className="text-muted-foreground mb-8 font-medium clear-both">
               Zonder passende bestemming is een tiny house als hoofdwoning meestal niet toegestaan, hoe klein en duurzaam het ook is.
             </p>
-
-            <div className="md:float-right md:ml-6 mb-6 md:mb-0">
-              
-            </div>
 
             <h3 className="text-xl font-semibold text-foreground mb-4">Vergunningsplicht</h3>
             <p className="text-muted-foreground mb-4">
@@ -164,6 +167,15 @@ const LawSections = ({
         </div>
       </section>
 
+      {/* Full-width image divider */}
+      <section className="py-8 bg-muted/30">
+        <div className="container mx-auto px-4">
+          <div className="max-w-5xl mx-auto">
+            <img src={tinyhouseErfImage} alt="Rode tiny house op een groen erf met bomen" className="rounded-2xl shadow-lg w-full h-64 md:h-80 lg:h-96 object-cover" />
+          </div>
+        </div>
+      </section>
+
       {/* Section 4: Familiewoning */}
       <section id="familiewoning" className="py-16 bg-muted/30">
         <div className="container mx-auto px-4">
@@ -171,6 +183,9 @@ const LawSections = ({
             <div className="flex items-center gap-3 mb-6">
               <Users className="h-8 w-8 text-primary" />
               <h2 className="text-3xl font-bold text-foreground">Extra woning op eigen erf: de familiewoning</h2>
+            </div>
+            <div className="md:float-right md:ml-6 mb-6 md:mb-0 flex justify-center md:justify-end">
+              <img src={familieDinnerImage} alt="Familie aan het dineren samen - meerdere generaties" className="rounded-2xl shadow-lg w-48 md:w-56 lg:w-72 h-auto object-cover" />
             </div>
             <p className="text-muted-foreground mb-6">
               Steeds meer mensen willen een extra, compacte woning op hun erf voor familie:
@@ -224,7 +239,7 @@ const LawSections = ({
               <h2 className="text-3xl font-bold text-foreground">Mantelzorgwoning: tiny house als zorgoplossing</h2>
             </div>
             <div className="md:float-right md:ml-6 mb-6 md:mb-0 flex justify-center md:justify-end">
-              <img src={mantelzorgImage} alt="Oudere en jongere handen die elkaar vasthouden - symbolisch voor mantelzorg" className="rounded-2xl shadow-lg w-40 md:w-52 lg:w-64 h-auto object-cover" />
+              <img src={mantelzorgCareImage} alt="Mantelzorger helpt oudere vrouw in rolstoel" className="rounded-2xl shadow-lg w-48 md:w-56 lg:w-72 h-auto object-cover" />
             </div>
             
             <p className="text-muted-foreground mb-6">
