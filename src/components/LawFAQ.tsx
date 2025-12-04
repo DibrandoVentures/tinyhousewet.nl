@@ -1,6 +1,6 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { HelpCircle } from "lucide-react";
-import thinkingImage from "@/assets/thinking.png";
+import tinyModernDeckImage from "@/assets/tiny-modern-deck.jpg";
 const LawFAQ = () => {
   const faqItems = [{
     question: "Is een tiny house automatisch vergunningsvrij omdat het klein is?",
@@ -33,8 +33,8 @@ const LawFAQ = () => {
             </div>
             <div className="hidden md:block">
               <img 
-                src={thinkingImage} 
-                alt="Vrouw die nadenkt met vraagtekens - symbolisch voor veelgestelde vragen" 
+                src={tinyModernDeckImage} 
+                alt="Modern tiny house met houten terras in een groene omgeving" 
                 className="rounded-2xl shadow-lg w-full h-auto object-cover"
               />
             </div>
