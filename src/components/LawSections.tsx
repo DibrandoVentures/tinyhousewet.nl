@@ -18,6 +18,10 @@ const LawSections = ({ className }: LawSectionsProps) => {
               <Scale className="h-8 w-8 text-primary" />
               <h2 className="text-3xl font-bold text-foreground">Is er een aparte "tiny house wet"?</h2>
             </div>
+            <div className="md:float-right md:ml-6 mb-6 md:mb-0">
+              <img src={wetTinyhouseImage} alt="Rechtershamer op stapel groene mappen - symbolisch voor tiny house wetgeving" className="rounded-2xl shadow-lg w-56 md:w-72 lg:w-80 h-auto object-cover" />
+            </div>
+            
             <p className="text-lg text-muted-foreground mb-6">
               Het korte antwoord: <strong>nee</strong>.
             </p>
@@ -30,10 +34,6 @@ const LawSections = ({ className }: LawSectionsProps) => {
               <li>het <strong>omgevingsplan</strong> van jouw gemeente (de opvolger van het bestemmingsplan);</li>
               <li><strong>bouwtechnische regels</strong> rond veiligheid, gezondheid en gebruik.</li>
             </ul>
-            
-            <div className="md:float-right md:ml-6 mb-6 md:mb-0">
-              <img src={wetTinyhouseImage} alt="Rechtershamer op stapel groene mappen - symbolisch voor tiny house wetgeving" className="rounded-2xl shadow-lg w-56 md:w-72 lg:w-80 h-auto object-cover" />
-            </div>
             
             <p className="text-muted-foreground mb-6">
               De wet stelt dus niet: "Tiny houses zijn toegestaan/verboden", maar kijkt naar vragen als:
