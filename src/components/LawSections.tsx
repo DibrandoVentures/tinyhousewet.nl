@@ -26,6 +26,15 @@ const LawSections = () => {
               <li>het <strong>omgevingsplan</strong> van jouw gemeente (de opvolger van het bestemmingsplan);</li>
               <li><strong>bouwtechnische regels</strong> rond veiligheid, gezondheid en gebruik.</li>
             </ul>
+            
+            <div className="md:float-right md:ml-6 mb-6 md:mb-0">
+              <img 
+                src={wetTinyhouseImage} 
+                alt="Rechtershamer op stapel groene mappen - symbolisch voor tiny house wetgeving" 
+                className="rounded-2xl shadow-lg w-48 md:w-56 h-auto object-cover" 
+              />
+            </div>
+            
             <p className="text-muted-foreground mb-6">
               De wet stelt dus niet: "Tiny houses zijn toegestaan/verboden", maar kijkt naar vragen als:
             </p>
@@ -35,22 +44,9 @@ const LawSections = () => {
               <li>Wordt het gebruikt als hoofdwoning, familiewoning of mantelzorgwoning?</li>
               <li>Is het bedoeld voor permanente bewoning of meer als hulpoplossing?</li>
             </ul>
-            <p className="text-muted-foreground font-medium">
+            <p className="text-muted-foreground font-medium clear-both">
               Daarom is de belangrijkste eerste stap: bepaal wat jouw tiny house precies moet zijn en voor wie.
             </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Image Section - Wet/Law */}
-      <section className="py-8 bg-muted/30 overflow-hidden">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto flex justify-end">
-            <img 
-              src={wetTinyhouseImage} 
-              alt="Rechtershamer op stapel groene mappen - symbolisch voor tiny house wetgeving" 
-              className="rounded-2xl shadow-lg w-64 md:w-80 h-auto object-cover transform md:translate-x-16" 
-            />
           </div>
         </div>
       </section>
@@ -146,6 +142,14 @@ const LawSections = () => {
               </li>
             </ul>
 
+            <div className="md:float-right md:ml-6 mb-6 md:mb-0">
+              <img 
+                src={kostenTinyhouseImage} 
+                alt="Modelwoning met rekenmachine en bouwhelm - symbolisch voor bouwplanning en kosten" 
+                className="rounded-2xl shadow-lg w-48 md:w-56 h-auto object-cover" 
+              />
+            </div>
+
             <h3 className="text-xl font-semibold text-foreground mb-4">Bouwkundige eisen</h3>
             <p className="text-muted-foreground mb-4">
               Ook een kleine woning moet voldoen aan basisregels voor:
@@ -156,22 +160,9 @@ const LawSections = () => {
               <li>ventilatie en daglicht;</li>
               <li>minimale gebruikseisen (bijvoorbeeld voor verblijfsruimtes).</li>
             </ul>
-            <p className="text-muted-foreground">
+            <p className="text-muted-foreground clear-both">
               Dat betekent niet dat een tiny house een klassieke rijtjeswoning hoeft te zijn, maar wél dat er een ondergrens is aan veiligheid en gezondheid.
             </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Image Section - Kosten/Planning */}
-      <section className="py-8 bg-background overflow-hidden">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto flex justify-start">
-            <img 
-              src={kostenTinyhouseImage} 
-              alt="Modelwoning met rekenmachine en bouwhelm - symbolisch voor bouwplanning en kosten" 
-              className="rounded-2xl shadow-lg w-64 md:w-80 h-auto object-cover transform md:-translate-x-16" 
-            />
           </div>
         </div>
       </section>
@@ -235,6 +226,14 @@ const LawSections = () => {
               <Heart className="h-8 w-8 text-primary" />
               <h2 className="text-3xl font-bold text-foreground">Mantelzorgwoning: tiny house als zorgoplossing</h2>
             </div>
+            <div className="md:float-right md:ml-6 mb-6 md:mb-0">
+              <img 
+                src={mantelzorgImage} 
+                alt="Oudere en jongere handen die elkaar vasthouden - symbolisch voor mantelzorg" 
+                className="rounded-2xl shadow-lg w-48 md:w-56 h-auto object-cover" 
+              />
+            </div>
+            
             <p className="text-muted-foreground mb-6">
               Een mantelzorgwoning is een woning die er specifiek staat vanwege een zorgrelatie. Denk aan:
             </p>
@@ -244,7 +243,7 @@ const LawSections = () => {
               <li>een mantelzorger die in een extra unit naast de zorgvrager woont.</li>
             </ul>
 
-            <h3 className="text-xl font-semibold text-foreground mb-4">Wanneer is er volgens de wet sprake van mantelzorg?</h3>
+            <h3 className="text-xl font-semibold text-foreground mb-4 clear-both">Wanneer is er volgens de wet sprake van mantelzorg?</h3>
             <p className="text-muted-foreground mb-4">
               In de regel is er sprake van mantelzorg als:
             </p>
@@ -256,14 +255,6 @@ const LawSections = () => {
             <p className="text-muted-foreground mb-8">
               Veel gemeenten vragen een vorm van verklaring of onderbouwing voordat ze een mantelzorgwoning toestaan.
             </p>
-
-            <div className="my-6 flex justify-end">
-              <img 
-                src={mantelzorgImage} 
-                alt="Oudere en jongere handen die elkaar vasthouden - symbolisch voor mantelzorg" 
-                className="rounded-2xl shadow-lg w-56 md:w-72 h-auto object-cover transform md:translate-x-8" 
-              />
-            </div>
 
             <h3 className="text-xl font-semibold text-foreground mb-4">Ruimte in de regels</h3>
             <p className="text-muted-foreground mb-4">
@@ -290,20 +281,19 @@ const LawSections = () => {
         </div>
       </section>
 
-      {/* Image Section - Tiny Community */}
-      <section className="py-8 bg-muted/30 overflow-hidden">
+      {/* Section 6: Concreet betekent */}
+      <section className="py-16 bg-muted/30">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto flex justify-start">
+          <div className="max-w-4xl mx-auto flex justify-center mb-8">
             <img 
               src={tinyCommunityImage} 
               alt="Overzicht van een tiny house community met meerdere tiny houses op een veld" 
-              className="rounded-2xl shadow-lg w-64 md:w-96 h-auto object-cover transform md:-translate-x-16" 
+              className="rounded-2xl shadow-lg w-72 md:w-96 h-auto object-cover" 
             />
           </div>
         </div>
       </section>
-
-      {/* Section 6: Concreet betekent */}
+      
       <section className="py-16 bg-muted/30">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
